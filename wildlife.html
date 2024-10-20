@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife of Chesapeake Bay</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Wildlife of Chesapeake Bay</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="wildlife.html">Wildlife</a></li>
+            <li><a href="conservation.html">Conservation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="wildlife-slideshow">
+            <h2>Wildlife of Chesapeake Bay</h2>
+            <p>From blue crabs to diverse bird populations, Chesapeake Bay is home to an incredible variety of species.</p>
+            <div class="cycle-slideshow"
+                 data-cycle-fx="fade"
+                 data-cycle-timeout="3000"
+                 data-cycle-slides="> img">
+                <img src="images/wildlife1.jpeg" alt="Wildlife in Chesapeake Bay - Blue Crabs">
+                <img src="images/wildlife2.jpeg" alt="Wildlife in Chesapeake Bay - Herons">
+                <img src="images/wildlife3.jpeg" alt="Wildlife in Chesapeake Bay - Fish">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Amarveer Singh - Wildlife in Chesapeake Bay</p>
+    </footer>
+</body>
+</html>
